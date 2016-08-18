@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="SAN_tony_augustseventeenl">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1471551424059</CreatedAt>
+    <CreatedBy>sarthak@apigee.com</CreatedBy>
+    <Description>a05043 git: 61c3383b den-f29872.la.frd.directv.com</Description>
+    <DisplayName>augustseventeenl</DisplayName>
+    <LastModifiedAt>1471553565615</LastModifiedAt>
+    <LastModifiedBy>sarthak@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>ExtractVersion</Policy>
+        <Policy>Quick-debugging</Policy>
+        <Policy>Reroute-Traffic</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://Reroute.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>LatestVersionTargetEndpoint</TargetEndpoint>
+        <TargetEndpoint>VersionedTargetEndpoint</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
