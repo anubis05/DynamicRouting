@@ -13,6 +13,6 @@
     <Flows/>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>http://dev-int-kube.aeg.cloud/api/v1/proxy/namespaces/sandbox-tony/services/augustseventeenl/v{uriRequest.majorVersion}</URL>
+        <URL>http://dev-int-kube.aeg.cloud/api/v1/proxy/namespaces/sandbox-tony/services/augustseventeenl/v3</URL>
     </HTTPTargetConnection>
 </TargetEndpoint>
